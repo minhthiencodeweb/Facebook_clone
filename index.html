@@ -1,12 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook</title>
-</head>
-<body>
-    
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <!-- minh thien -->
+    </header>
+    <main class="main">
+      <aside class="sidebar__left">
+        <!--truong quy-->
+        <div class="user__actions">
+          <ul class="user__actions-list">
+            <li class="profile">
+              <a href="#">
+                <div class="user__actions-icon">
+                  <img src="./assets/img/avatar.png" alt="Nguyen Truong Quy" />
+                </div>
+                <div class="user__actions-info">
+                  <span>Nguyen Truong Quy</span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__actions-icon">
+                  <img src="./assets/img/friend_icon.png" alt="friend_icon" />
+                </div>
+                <div class="user__actions-info">
+                  <span>Bạn bè</span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__actions-icon">
+                  <img src="./assets/img/memory_icon.png" alt="memory_icon" />
+                </div>
+                <div class="user__actions-info">
+                  <span>Kĩ niệm</span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__actions-icon">
+                  <img src="./assets/img/page_icon.png" alt="page_icon" />
+                </div>
+                <div class="user__actions-info">
+                  <span>Trang</span>
+                  <span class="user__actions-notifications">2 mục mới</span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__actions-icon">
+                  <img src="./assets/img/group_icon.png" alt="group_icon" />
+                </div>
+                <div class="user__actions-info">
+                  <span>Nhóm</span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__actions-icon">
+                  <img src="./assets/img/saved_icon.png" alt="saved_icon" />
+                </div>
+                <div class="user__actions-info">
+                  <span>Đã lưu</span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__actions-icon">
+                  <div class="icon">
+                    <i class="fas fa-angle-down"></i>
+                  </div>
+                </div>
+                <div class="user__actions-info">
+                  <span>Xem thêm</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="user__shortcuts">
+          <div class="user__shortcuts-title">
+            <span>Lối tắt của bạn</span>
+            <span class="user__shortcuts-setting">Chỉnh sửa</span>
+          </div>
+          <ul class="user__shortcuts-list">
+            <li>
+              <a href="#">
+                <div class="user__shortcut-icon">
+                  <img src="./assets/img/shortcut-1.jpg" alt="shortcut-1" />
+                </div>
+                <div class="user__shortcut-info">
+                  <span>Tuyển dụng thực tập sinh IT - Săn dev</span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__shortcut-icon">
+                  <img src="./assets/img/shortcut-2.jpg" alt="shortcut-2" />
+                </div>
+                <div class="user__shortcut-info">
+                  <span>Tuyển dụng thực tập IT </span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__shortcut-icon">
+                  <img src="./assets/img/shortcut-3.jpg" alt="shortcut-3" />
+                </div>
+                <div class="user__shortcut-info">
+                  <span>Programming Jokes & Memes</span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__shortcut-icon">
+                  <img src="./assets/img/shortcut-4.jpg" alt="shortcut-4" />
+                </div>
+                <div class="user__shortcut-info">
+                  <span>Front End Web Dev Developer(VietNam)</span>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="user__shortcut-icon">
+                  <img src="./assets/img/shortcut-5.jpg" alt="shortcut-5" />
+                </div>
+                <div class="user__shortcut-info">
+                  <span>Công việc IT - TPHCM</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="newsfeed">
+        <!-- minh thiên -->
+      </section>
+
+      <aside class="sidebar__right">
+        <!--truong quy-->
+        <section class="user__pages">
+          <div class="section__title">
+            <span> Trang của bạn </span>
+            <span class="section__action">
+              <i class="fas fa-ellipsis-h"></i>
+            </span>
+          </div>
+        </section>
+
+        <section class="user__contacts">
+          <div class="section__title">
+            <span> Người liên hệ </span>
+            <span class="section__action">
+              <i class="fas fa-ellipsis-h"></i>
+            </span>
+          </div>
+
+          <ul class="contact__list">
+            <li class="contact__item">
+              <a href="#" class="contact__item-link">
+                <div class="contact__item-img">
+                  <img src="./assets/img/avatar.png" alt="avatar" />
+                </div>
+                <div class="contact__item-info">
+                  <span>Ngoc Han</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a href="#" class="contact__item-link">
+                <div class="contact__item-img">
+                  <img src="./assets/img/avatar.png" alt="avatar" />
+                </div>
+                <div class="contact__item-info">
+                  <span>Grass Little</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a href="#" class="contact__item-link">
+                <div class="contact__item-img">
+                  <img src="./assets/img/avatar.png" alt="avatar" />
+                </div>
+                <div class="contact__item-info">
+                  <span>Huynh Duc</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a href="#" class="contact__item-link">
+                <div class="contact__item-img">
+                  <img src="./assets/img/avatar.png" alt="avatar" />
+                </div>
+                <div class="contact__item-info">
+                  <span>Van Do</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a href="#" class="contact__item-link">
+                <div class="contact__item-img">
+                  <img src="./assets/img/avatar.png" alt="avatar" />
+                </div>
+                <div class="contact__item-info">
+                  <span>Hoang Duc</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a href="#" class="contact__item-link">
+                <div class="contact__item-img">
+                  <img src="./assets/img/avatar.png" alt="avatar" />
+                </div>
+                <div class="contact__item-info">
+                  <span>Ngoc Mai</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a href="#" class="contact__item-link">
+                <div class="contact__item-img">
+                  <img src="./assets/img/avatar.png" alt="avatar" />
+                </div>
+                <div class="contact__item-info">
+                  <span>Thanh Phong</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="contact__item">
+              <a href="#" class="contact__item-link">
+                <div class="contact__item-img">
+                  <img src="./assets/img/avatar.png" alt="avatar" />
+                </div>
+                <div class="contact__item-info">
+                  <span>Van Test</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <div class="contact__detail">
+            <div class="contact__detail-img">
+              <img src="./assets/img/avatar100.png" alt="avatar" />
+            </div>
+            <div class="contact__detail-info">
+              <a href="#" class="contact__detail-name">Ngoc Han</a>
+              <div class="contact__detail-friends">
+                <i class="fas fa-user-friends"></i>
+                66 bạn chung bao gồm <a href="#">Hồ Phúc Tài</a> và
+                <a href="#">Phan Thư</a>
+              </div>
+              <div class="contact__detail-location">
+                <i class="fas fa-map-marker-alt"></i>
+                Từ <a href="#">Bến Tre</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </main>
+  </body>
 </html>
