@@ -215,7 +215,7 @@
 }
 .newsfeed .story-admin .bg-name{
   background-color: #242526;
-  width: 118px;
+  width: 108px;
   height: 54px;
   position: absolute;
   top: 146px;
@@ -317,7 +317,7 @@
 
 .post-add .yourmind .acount-comment .acount-admin {
   height: 40px;
-  width: 10%;
+  width: 40px;
 }
 
 .post-add .yourmind .acount-comment .acount-admin img {
@@ -329,7 +329,7 @@
 
 
 .post-add .yourmind .acount-comment .comment input{
-  width: 536px;
+  width: 484px;
   margin-left: 6px;
   height: 40px;
   border-radius: 50px;
@@ -494,7 +494,7 @@ hr{
 }
 
 .like .name-comment{
-  width: 58%;
+  width: 56%;
   margin-left: 10px;
 }
 .like .name-comment:hover{
@@ -525,7 +525,7 @@ hr{
 }
 
 .item-like{
-  width: 17%;
+
   padding: 8px 46px;
 
 }
