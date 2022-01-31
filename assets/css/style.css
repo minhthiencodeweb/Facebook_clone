@@ -1,3 +1,546 @@
+.devide-col{
+  width: 100%;
+  height: 55px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-gray-white) ;
+  background-image: linear-gradient(#242526, #242526, #242526);
+}
+
+.col-left{
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.col-left .icon-face {
+  line-height: 5px;
+  text-align: center;
+  width: 17%;
+}
+
+.col-left .icon-face a img{
+  background-size: cover;
+  border-radius: 55%;
+  width: 70%;
+  height: 56%;
+}
+
+
+.col-left .search-face{
+  align-items: center;
+  display: flex;
+  width: 78%;
+  height: 40px;
+  
+
+}
+
+.col-left .search-face input{
+  padding-left: 7px;
+  width: 90%;
+  height: 100%;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border: none;
+  background-color: var(--color-gray-white);
+}
+
+.col-left .search-face .icon-search{
+  width: 10%;
+  height: 100%;
+  color: #b0b3b8;
+  background-color: white;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: var(--color-gray-white);
+}
+
+.col-left .search-face .icon-search i{
+  line-height: 39px;
+  margin-left: 10px;
+}
+
+::placeholder { 
+  color: #b0b3b8;
+}
+
+.col-center{
+  width: 45%;
+}
+
+.col-center .list-item-header ul{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+.col-center .list-item-header ul li{
+  list-style: none;
+  width: 17%;
+  font-size: 23px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.col-center .list-item-header ul li.item-active{
+  color: var(--color-blue);
+  border-bottom: 4px solid var(--color-blue) ;
+}
+
+
+
+.col-center .list-item-header ul li .item-list:hover{
+  background-color: var(--color-gray-white);
+  border-radius: 7px;
+
+}
+
+
+
+
+.col-right{
+  width: 24%;
+
+  padding: 8px 20px 8px 0;
+}
+
+.col-right .list-info ul{
+  display: flex;
+  list-style: none;
+  justify-content: right;
+}
+
+
+.col-right .list-info ul li .item-bell{
+  margin-left: 6px;
+  width: 40px;
+  background-color:var(--color-gray-white);
+  text-align: center;
+  height: 40px;
+  line-height: 44px;
+  border-radius: 50%;
+}
+
+.col-right .list-info ul li .item-bell:hover{
+  background-color: #575a5e;
+}
+
+
+
+.col-right .list-info ul li a i{
+  font-size: 18px;
+  color:#e4e6eb;
+}
+
+.col-right .list-info .acount a{
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.col-right .list-info .acount:hover{
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 100%;
+  height: 41px;
+  background-color: #575a5e;
+}
+
+.col-right .list-info ul li .acount .img-acount{
+  width: 40%;
+  height: 100%;
+
+}
+.col-right .list-info ul li .acount .img-acount img{
+  width: 100%;
+  border-radius: 50%;
+
+}
+.col-right .list-info ul li .acount .name-acount{
+  width: 50%;
+  line-height: 33px;
+  height: 100%;
+}
+.col-right .list-info ul li .acount .name-acount span{
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: 600;
+}
+
+
+/* newsfeed */
+
+.newsfeed .story-admin{
+  position: relative;
+  
+}
+
+.newsfeed .story-admin ul{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  
+
+}
+
+.newsfeed .story-admin ul li{
+  width: 14%;
+  height: 192px;
+  margin-right: 7px;
+
+}
+
+.newsfeed .story-admin .admin-firts img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.newsfeed .story-admin .bg-name{
+  background-color: #242526;
+  width: 100%;
+  height: 53px;
+  position: relative;
+  top: -32px;
+  text-align: center;
+  line-height: 68px;
+  font-weight: 600;
+  font-size: 13px;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.newsfeed .story-admin .bg-name .icon-flus i{
+  position: absolute;
+  top: -19px;
+  left: 37px;
+  background-color: #2e89ff;
+  width: 31px;
+  height: 30px;
+  text-align: center;
+  line-height: 31px;
+  border-radius: 50%;
+  border: 4.1px solid #242526;
+  font-size: 20px;
+
+}
+
+.admin-cutomer {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.admin-cutomer img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.circle-img img{
+  left: 12px;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 4.1px solid #2e89ff;
+  position: absolute;
+  top: 12px;
+}
+
+.admin-cutomer span{
+  position: absolute;
+  font-weight: 600;
+  font-size: 13px;
+  color: white;
+  bottom: 10px;
+  left: 21px;
+}
+
+.arrow{
+  font-size: 17px;
+  border-radius: 50%;
+  line-height: 39px;
+  text-align: center;
+  background-color: #3e4042;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 96px;
+  top: 77px;
+
+
+}
+
+.post-add{
+  margin-top: 20px;
+}
+.post-add .yourmind{
+  background-color: #242526;
+  width: 71%;
+  margin: 0 auto;
+  padding: 12px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.post-add .yourmind .acount-comment {
+  display: flex;
+
+
+}
+
+
+.post-add .yourmind .acount-comment .acount-admin {
+  height: 40px;
+  width: 40px;
+}
+
+.post-add .yourmind .acount-comment .acount-admin img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+.post-add .yourmind .acount-comment .comment input{
+  width: 536px;
+  margin-left: 6px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  background-color: var(--color-gray-white);
+  padding-left: 14px;
+}
+
+
+hr{
+  height: 1.5px;
+  border-width: 0;
+  color: black;
+  margin-top: 13px;
+  background-color: #2d2e2f;
+}
+
+
+.live-photo-feel{
+  padding: 14px 0 10px 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+
+.item-icon-post{
+  width: 29%;
+  display: flex;
+}
+
+.item-icon-post .live-post{
+
+  color:#f3425f;
+  font-size: 21px;
+}
+.item-icon-post .photo-post{
+
+  color:#45bd62;
+  font-size: 21px;
+}
+.item-icon-post .grin-post{
+
+  color:#f7b928;
+  font-size: 21px;
+}
+.item-icon-post .text-post{
+  margin-left: 10px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+
+/* body-facebook */
+
+.center-fa{
+  background-color: #242526;
+  width: 74%;
+  margin: 0 auto;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+
+}
+
+
+.imga-info{
+  display: flex;
+  padding: 15px 15px 5px 15px;
+}
+
+
+.imga-info .icon-admin{
+  width: 10%;
+}
+.imga-info .icon-admin img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+}
+
+.content-face{
+  margin-top: 20px;
+}
+
+
+
+.imga-info .intro{
+  width: 130%;
+  margin-left: 10px;
+}
+
+.down-clock-admin{
+  line-height: 22px;
+}
+
+.down-clock-admin .name-admin {
+  color: white;
+  font-weight: 600;
+ 
+}
+
+.down-clock-admin .name-admin i{
+  font-size: 12px;
+  color: var(--color-blue);
+  background-color: white;
+  border-radius: 50%;
+  justify-content: center;
+  line-height: 10px;
+}
+
+.down-clock-admin .down-clock{
+  font-size: 12px;
+
+}
+
+.imga-info .dot-space{
+  width: 7%;
+}
+
+.dot-space{
+  font-size: 21px;
+}
+
+.content-page{
+  margin-left: 15px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.image-page img{
+  width: 100%;
+  height: 100%;
+}
+
+/* comment-facebook */
+.like{
+  display: flex;
+  width: 94%;
+  padding: 10px 20px 15px 18px;
+  
+}
+
+.like img{
+  width: 18px;
+  height: 18px;
+
+}
+
+.like .name-comment{
+  width: 40%;
+  margin-left: 10px;
+}
+
+.like .quanlity-comment{
+  margin-left: 119px;
+}
+
+
+.like .quanlity-shares{
+  margin-left: 10px;
+}
+
+.item-bar-fa{
+  display: flex;
+  width: 94%;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 20px 15px 18px;
+}
+
+.item-like{
+  width: 17%;
+
+}
+.item-like i{
+  font-size: 18px;
+}
+
+.item-like span{
+  margin-left: 7px;
+  font-weight: 600;
+}
+
+.space-com{
+  width: 94%;
+  padding: 0 20px 0 18px;
+}
+
+.space-com hr{
+  height: 0.5px;
+  border-width: 0;
+  color: #c8c8c8;
+  margin-top: 0;
+  background-color: #55575a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .display-flex {
   display: flex !important;
 }
