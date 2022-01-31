@@ -334,6 +334,11 @@
   padding-left: 14px;
 }
 
+.post-add .yourmind .acount-comment .comment input:hover{
+  background-color: #6a6c6e;
+
+}
+
 
 hr{
   height: 1.5px;
@@ -421,7 +426,7 @@ hr{
   margin-left: 10px;
 }
 
-.down-clock-admin{
+.down-clock-admin {
   line-height: 22px;
 }
 
@@ -429,6 +434,9 @@ hr{
   color: white;
   font-weight: 600;
  
+}
+.down-clock-admin .name-admin:hover{
+  text-decoration: underline;
 }
 
 .down-clock-admin .name-admin i{
@@ -482,14 +490,23 @@ hr{
   width: 40%;
   margin-left: 10px;
 }
+.like .name-comment:hover{
+  text-decoration: underline;
+}
 
 .like .quanlity-comment{
   margin-left: 119px;
+}
+.like .quanlity-comment:hover{
+  text-decoration: underline;
 }
 
 
 .like .quanlity-shares{
   margin-left: 10px;
+}
+.like .quanlity-shares:hover{
+  text-decoration: underline;
 }
 
 .item-bar-fa{
@@ -497,13 +514,25 @@ hr{
   width: 94%;
   justify-content: space-between;
   text-align: center;
-  padding: 10px 20px 15px 18px;
+  padding: 5px 20px 2px 18px;
 }
 
 .item-like{
   width: 17%;
+  padding: 8px 46px;
 
 }
+.item-like:hover{
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #575a5e;
+  padding: 8px 46px;
+
+} 
+
+
 .item-like i{
   font-size: 18px;
 }
