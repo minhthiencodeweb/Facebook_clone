@@ -317,7 +317,7 @@
 
 .post-add .yourmind .acount-comment .acount-admin {
   height: 40px;
-  width: 40px;
+  width: 10%;
 }
 
 .post-add .yourmind .acount-comment .acount-admin img {
@@ -483,7 +483,9 @@ hr{
   width: 94%;
   padding: 10px 20px 15px 18px;
   
+  
 }
+
 
 .like img{
   width: 18px;
@@ -492,7 +494,7 @@ hr{
 }
 
 .like .name-comment{
-  width: 40%;
+  width: 58%;
   margin-left: 10px;
 }
 .like .name-comment:hover{
@@ -500,7 +502,7 @@ hr{
 }
 
 .like .quanlity-comment{
-  margin-left: 119px;
+  
 }
 .like .quanlity-comment:hover{
   text-decoration: underline;
